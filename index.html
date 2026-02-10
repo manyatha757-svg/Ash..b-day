@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy 18th Ashween 🎉</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page active" id="page1">
+  <h1>🎉 Happy 18th 🎉</h1>
+  <p class="bold">Bazinga!! You cracked them all 😌!!</p>
+  <p>Happiesttt birthday Ashweeeeeen!!!</p>
+  <p>Always be your gorgeous self you are..</p>
+
+  <p class="message">
+    Happy Birthday to the only person who’s seen me at my worst and still chose to stay.<br>
+    Happy Birthday to my best friend ❤️<br>
+    Thank you for being my safe place, my biggest support, and my favorite human.<br>
+    I wish you all the happiness and good luck....love you lots!!
+  </p>
+
+  <button onclick="nextPage()">Next →</button>
+</div>
+
+<div class="page" id="page2">
+  <h2>Find your way to the surprise ❤️ </h2>
+
+  <div class="maze">
+    <div class="player"></div>
+    <div class="goal">🎁</div>
+  </div>
+
+  <p class="hint">Use arrow keys ⬆️⬇️⬅️➡️</p>
+</div>
+
+<script src="script.js"></script>
+  <!-- CERTIFICATE PAGE -->
+<section id="certificatePage" class="hidden">
+  <h2 class="certificate-title">🎓 Certificate Unlocked 🎉</h2>
+
+  <div class="certificate-wrapper">
+    <img src="certificate.png" alt="Certificate of Friendness" class="certificate-img">
+  </div>
+
+  <p class="certificate-note">
+    Because you survived everything till the end 😌
+  </p>
+</section>
+
+<canvas id="confettiCanvas"></canvas>
+
+  <div id="confetti-container"></div>
+  
+</body>
+</html>
